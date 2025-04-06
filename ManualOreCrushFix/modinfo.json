@@ -1,13 +1,14 @@
 {
     "type": "code",
     "modid": "manualorecrushfix",
-    "name": "ManualOreCrushFix",
+    "name": "Manual Ore Crush Fix",
     "authors": [
-        "Unknown"
+        "Qwerdo"
     ],
-    "description": "To be added",
+    "description": "Fixes Gold, Silver and Tin drops to match vanilla behaviour",
     "version": "1.0.0",
     "dependencies": {
-        "game": ""
+        "game": "",
+        "immersiveorecrush": ""
     }
 }
