@@ -32,8 +32,8 @@ namespace ManualOreCrushFix
             api.Logger.Notification("start of patch");
 
             bool flag = orePath == "stone-chalk" || orePath == "stone-limestone" || orePath == "stone-marble";
-            bool flagGoldTin = orePath.Contains("gold") || orePath.Contains("cassiterite");
-            bool flagSilver = orePath.Contains("silver");
+            bool flagGoldTin = orePath.Contains("gold") || orePath.Contains("cassiterite") || orePath.Contains("franckeite") || orePath.Contains("teallite");
+            bool flagSilver = orePath.Contains("silver") || orePath.Contains("freibergite");
             int result;
 
             if (flag)
